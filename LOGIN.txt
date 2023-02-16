@@ -1,0 +1,37 @@
+LOGIN PENGGUNA
+1. AKUN ADMIN
+username : admin
+password : admin
+
+2. AKUN GURU (BISA CRUD DI HALAMAN ADMIN)
+username : guru
+password : guru
+
+3. AKUN SISWA (BISA CRUD DI HALAMAN ADMIN)
+username : siswa
+password : siswa
+
+AKTOR SISTEM
+1. Administrator
+2. Guru
+3. Siswa
+
+HAK AKSES AKTOR
+1. Administrator dapat mengelola seluruh data (CREATE, READ, UPDATE, DELETE)
+- Data Guru
+- Data Siswa
+- Soal Ujian
+- Peserta Ujian
+2. Guru dapat melihat & mengelola daftar soal ujian
+3. Siswa dapat melihat jadwal, ujian, dan lihat hasil.
+
+FITUR UMUM ADMIN
+1. Kelola data guru
+2. Kelola data kelas
+3. Kelola data siswa per kelas
+4. Kelola data mata pelajaran
+5. Kelola data soal ujian per mata pelajaran
+6. Kelola data jenis ujian (UTS, UAS, dll)
+7. Kelola data peserta ujian berdasarkan jenis ujian
+8. Laporan data (custom mata pelajaran, kelas, hasil ujian, dll)
+9. Utilitas sistem (backup database, reset database, dan restore database)
